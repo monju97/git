@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learn git</title>
+        <style>
+            li{
+                margin-inline: 0;
+            }
+            code{
+                background: #a6afb9;
+                }
+            #color-red{
+                color: #ff0000;
+            }
+            #color-green{
+                color: green;
+            }
+            terminal{
+                background: #93d2ff;
+            }
+        </style>
+    </head>
+<body>
+    <h1>git operation step by step</h1>
+    <pre>
+        <ul>
+    <li>check git version <code>git --version</code></li>
+    <li>open directory then</li>
+    <li>first active git in folder/ make repository <code>git init</code></li>
+    <li>check change after create txt file <code>git status</code></li>
+    if found any change/modify its showing in red 
+    <terminal>On branch master
+    No commits yet
+    Untracked files:
+        (use "git add <file>..." to include in what will be committed)
+                <quote id="color-red">git-test.txt
+                 index.html</quote>
+    nothing added to commit but untracked files present (use "git add" to track)</terminal>
+    <li>If show red any, add to this in git <code>git add git-test.txt</code></li>
+    <terminal>On branch master
+        No commits yet        
+        Changes to be committed:
+          (use "git rm --cached <file>..." to unstage)
+            <quote id="color-green">new file:   git-test.txt</quote>        
+        Untracked files:
+          (use "git add <file>..." to include in what will be committed)                
+                <quote id="color-red">index.html</quote></terminal>
+
+        <li>if open in vim, press <code>i</code> for insert, wrote commit details, press <code>esc</code> for exit from insert, pres <code>:x</code> for exit from vim</li>
+        <li>Show log <code>git log</code></li>
+        After Modify files follow below procedure: 
+        <li>add all (new/modify) files at a time use <code>git add .</code></li>
+        <li>check status <code>git status</code></li>
+        <li> if want to commit without using vim <code>git commit -m "Enter your commit details msg"</code></li>
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+</ul></pre>
+
+</body>
+</html>
