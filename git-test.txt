@@ -1,3 +1,2 @@
-
+wow! we are learn git
 Wow! first commit success
-Delete  first line
